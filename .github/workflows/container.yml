@@ -5,11 +5,11 @@ on:
         branches:
             - master
         paths:
-            - 'simple-web-app/container/**'
+            - './container/**'
 
 defaults:
     run:
-        working-directory: simple-web-app/container
+        working-directory: ./container
 
 jobs:
     build:
