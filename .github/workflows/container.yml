@@ -5,7 +5,7 @@ on:
         branches:
             - master
         paths:
-            - 'packages/container/**'
+            - 'simple-web-app/container/**'
 
 defaults:
     run:
